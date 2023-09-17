@@ -1,0 +1,56 @@
+.about {
+ 
+  .wrapper {
+    width: 100%;
+
+    .text {
+      width: 620px;
+      height: 348px;
+
+      &:nth-child(1) {
+        margin-left: 230px;
+      }
+
+      &:nth-child(2) {
+        margin-right: 230px;
+      }
+
+      h2 {
+        color: var(--white, #f3f3f3);
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-bottom: 25px;
+      }
+      p {
+        color: var(--white, #f3f3f3);
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 130%;
+        padding-bottom: 41px;
+      }
+      a {
+        color: var(--logo-light-green, #04ff14);
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration: none;
+      }
+    }
+
+    & .about_card {
+      display: flex;
+      align-items: center;
+      gap: 84px;
+      
+
+
+    }
+  }
+}

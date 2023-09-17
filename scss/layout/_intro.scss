@@ -1,0 +1,85 @@
+.intro {
+  background-image: url(../../assets/images/bgimg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 0 322px 0;
+
+  & h2 {
+    color: wheat;
+    color: var(--white, #f3f3f3);
+    font-family: Montserrat;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 30px;
+  }
+
+  & p {
+    color: wheat;
+    color: var(--white, #f3f3f3);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    padding-bottom: 30px;
+  }
+
+  &_btns {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 100px;
+
+    & button:nth-child(1) {
+      padding: 10px 30px;
+      background-color: #f3f3f3;
+      border: #f3f3f3;
+      color: var(--black, #000);
+      font-family: Montserrat;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 130%; /* 26px */
+    }
+
+    & button:nth-child(2) {
+      padding: 10px 30px;
+      background-color: transparent;
+      border: 2px solid #f3f3f3;
+      color: #f3f3f3;
+
+      font-family: Montserrat;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 130%; /* 26px */
+    }
+  }
+  & h5 {
+    color: var(--white, #f3f3f3);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 20px;
+  }
+  .intro_facts {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 37px;
+
+    .clients {
+      h6 {
+        padding-bottom: 7px;
+        color: var(--logo-light-green, #04ff14);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+    }
+  }
+}

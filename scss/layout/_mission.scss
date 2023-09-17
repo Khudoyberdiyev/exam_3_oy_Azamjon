@@ -1,0 +1,40 @@
+.mission {
+  background-image: url(..//../assets/images/mission_bc.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  .wrapper {
+    padding-top: 104px;
+    padding-bottom: 104px;
+    .mission_card {
+      width: 516px;
+      height: 192px;
+      flex-shrink: 0;
+      h2 {
+        color: var(--white, #f3f3f3);
+        font-family: Montserrat;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-bottom: 20px;
+      }
+      p {
+        color: var(--white, #f3f3f3);
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 130%; 
+        padding-bottom: 25px;
+      }
+      h6 {
+        color: var(--white, #f3f3f3);
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 130%; /* 26px */
+      }
+    }
+  }
+}

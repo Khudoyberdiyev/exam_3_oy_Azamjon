@@ -1,0 +1,17 @@
+.location {
+    position: relative;
+  
+.wrapper{
+
+    & img{
+        position: absolute;
+        left: 0;
+        max-width: 100%;
+        min-height: 250px;
+    }
+}
+// .des_img{
+//     display: none;
+// }
+
+}
